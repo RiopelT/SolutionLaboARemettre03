@@ -19,12 +19,17 @@ void main()
    {
       cout << "Veuillez entrer un nombre :";
       cin >> nombre;
-
-      // On dout ajouter cette note à la somme des notes on utilise la même variable que le resultat attendu : moyenne 
       max = nombre;
-      cout << "Le max est : " << max << endl;
-   }
 
+      if (nombre > max)
+      {
+         cout << "Le max est" << nombre;
+      }
+  
+   }
+   
+   
+  
 
    system("pause");
 }
