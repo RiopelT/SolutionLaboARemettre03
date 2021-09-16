@@ -13,20 +13,75 @@ void main()
    const int  NB = 10;
 // Déclaration des variables :
    float nombre;
-   float max;
+   double max;
 
    for (int compteur = 1; compteur <= NB; compteur++)
    {
+      
       cout << "Veuillez entrer un nombre :";
       cin >> nombre;
-      max = nombre;
-
-      if (nombre > max)
+      
+      
+      
+      if (compteur==1)
       {
-         cout << "Le max est" << nombre;
+          max = nombre;
+      }
+      else if (max<nombre)
+      {
+         max = nombre;
+         
+      }
+      else if (compteur==NB)
+      {
+         cout << "Le max est : " << max <<endl;
+      }
+      {
+
+      }
+      {
+        
       }
   
    }
+
+
+
+   /*
+                 Plan de tests
+         Nombres
+         1
+         2
+         3
+         4
+         5
+         6
+         7
+         8
+         9
+         10
+         Max : 10
+
+         -1
+         -2
+         -3
+         -4
+         -5
+         -6
+         -7
+         -8
+         -9
+         -10
+         max: -1
+   
+   
+   
+   
+   
+   
+   
+   
+   */
    
    
   

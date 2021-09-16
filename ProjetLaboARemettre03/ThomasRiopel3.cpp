@@ -1,4 +1,4 @@
-// But :
+// But : Demander combien de vente le représentant à fait et le programme afichera le montant que le représenatnt recevera.
 // AUteur : Thomas Riopel
 // Date : 2021-09-13
 
@@ -46,3 +46,16 @@ int main()
 
 	}
 }
+/*
+				Plan de tests
+	Nombre de ventes		$$$
+	22							251.65	
+	56							254.2
+	120						259
+	-1							EXIT
+
+
+
+
+
+*/
